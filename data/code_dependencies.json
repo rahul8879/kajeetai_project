@@ -1,0 +1,27 @@
+{
+  "activationType": {
+    "summary": "Adding activationType affects persistence, service orchestration, and front-end payloads.",
+    "modules": [
+      "ActivationDaoImpl.java",
+      "ActivationServiceImpl.java",
+      "ActivationController.ts",
+      "activation-form.component.ts"
+    ],
+    "dependencies": [
+      "com.kajeet.sentinel.activation.model.ActivationTransactionDTO",
+      "com.kajeet.sentinel.activation.model.ActivationInventoryInfo",
+      "Angular Activation module forms"
+    ],
+    "tests": [
+      "ActivationServiceImplTest",
+      "ActivationDaoImplIntegrationTest",
+      "ActivationFormComponentSpec"
+    ]
+  },
+  "general-change": {
+    "summary": "Generic guidance when dependency mapping is unavailable.",
+    "modules": [],
+    "dependencies": [],
+    "tests": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "smartbus wi-fi:school district": {
+    "subject": "Empower students with always-on SmartBus Wi-Fi",
+    "opening": [
+      "Thank you for exploring Kajeet SmartBus Wi-Fi to close the homework gap.",
+      "We partner with districts to extend safe, reliable internet access beyond the classroom."
+    ],
+    "value_points": [
+      "Filtered, CIPA-compliant Wi-Fi keeps students focused and protected.",
+      "Self-serve analytics help transportation and IT teams monitor usage in real time.",
+      "Flexible data plans and bundled hardware simplify deployment and funding."
+    ],
+    "call_to_action": "Let's schedule a 30-minute planning session to align on rollout timelines.",
+    "references": [
+      "SmartBus overview brochure",
+      "Case study: Prince William County Schools",
+      "E-rate funding one-pager"
+    ],
+    "coaching": [
+      "Mirror the district's mission statement in the opening paragraph.",
+      "Anchor each value point to a measurable student or operational outcome.",
+      "Include next steps with a calendar invite link."
+    ]
+  },
+  "private lte:enterprise": {
+    "subject": "Private LTE to power resilient enterprise connectivity",
+    "opening": [
+      "Appreciate your interest in Kajeet Private LTE to modernize campus connectivity."
+    ],
+    "value_points": [
+      "Carrier-agnostic design gives you control over coverage and quality of service.",
+      "End-to-end managed services reduce operational overhead.",
+      "Integrated security stack enforces Zero Trust policies across devices."
+    ],
+    "call_to_action": "Happy to arrange a technical workshop with our solution architects next week.",
+    "references": [
+      "Private LTE playbook",
+      "ROI snapshot: Manufacturing customer",
+      "Spectrum planning checklist"
+    ],
+    "coaching": [
+      "Quantify downtime reduction or throughput improvements where possible."
+    ]
+  }
+}

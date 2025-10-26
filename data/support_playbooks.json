@@ -1,0 +1,49 @@
+{
+  "apigateway:429": {
+    "cause": "Amazon API Gateway is throttling requests due to exceeded burst or rate limits.",
+    "actions": [
+      "Implement exponential backoff with jitter on client retries.",
+      "Review API Gateway usage plans and increase limits or redistribute traffic.",
+      "Enable Datadog alerting on 429 error spikes to catch issues earlier."
+    ],
+    "prevention": [
+      "Load test critical endpoints to baseline sustainable throughput.",
+      "Coordinate with product teams before marketing campaigns to scale limits."
+    ],
+    "references": [
+      "Runbook: API Gateway throttling",
+      "AWS Docs: API Gateway quotas",
+      "Datadog dashboard: api-gateway-errors"
+    ]
+  },
+  "apigateway:504": {
+    "cause": "Upstream integration timed out before API Gateway received a response.",
+    "actions": [
+      "Check recent latency trends in Datadog for backend services.",
+      "Increase Gateway integration timeout if upstream processing is expected to take longer.",
+      "Implement request queuing or circuit breaker to shield customers."
+    ],
+    "prevention": [
+      "Add synthetic monitoring to emulate peak-hour traffic.",
+      "Profile backend services for slow database queries."
+    ],
+    "references": [
+      "Runbook: API Gateway 504 response",
+      "Service X latency dashboard"
+    ]
+  },
+  "generic": {
+    "cause": "Pattern not recognized; follow general troubleshooting workflow.",
+    "actions": [
+      "Gather request IDs, timestamps, and customer impact.",
+      "Inspect recent deployments and feature toggles for regressions.",
+      "Escalate to on-call if customer impact is severe."
+    ],
+    "prevention": [
+      "Ensure post-incident reviews capture newly discovered failure modes."
+    ],
+    "references": [
+      "Support playbook index"
+    ]
+  }
+}
